@@ -4,7 +4,7 @@ const router = express.Router();
 
 router.get('/api/pedidos', (req, res)=>{
     res.json({
-        status:'ok'
+        status:'oks man'
     });   
 });
 
