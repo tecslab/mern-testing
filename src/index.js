@@ -17,7 +17,7 @@ app.use(morgan('dev'));
 app.use(express.json());
 
 //Routes
-app.use(require('./routes/pedidos.routes'));
+app.use('/api/pedidos', require('./routes/pedidos.routes'));
 
 //Static files
 app.use(express.static(path.join(__dirname, 'public')));
